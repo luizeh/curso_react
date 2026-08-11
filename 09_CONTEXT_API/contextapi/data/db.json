@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "name": "LUIS RICARDO SOARES",
+      "price": "123",
+      "id": "xkNPwnNlupE"
+    },
+    {
+      "name": "rafaelzinho pagottizinho",
+      "price": "12333",
+      "id": "rUQu0Zw3STU"
+    },
+    {
+      "name": "cabelo do enzenhex",
+      "price": "67",
+      "id": "J-Poe0DNDRs"
+    }
+    
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
