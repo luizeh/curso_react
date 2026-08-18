@@ -1,22 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import CounterContext, {CounterContextProvider} from './context/CounterContext'
-import { TitleContextProvider } from './context/TitleContext';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* Criando Provider */}
-    <CounterContextProvider>
-      <TitleContextProvider>
-        <App />
-      </TitleContextProvider>
-    </CounterContextProvider>
-  </React.StrictMode>
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
